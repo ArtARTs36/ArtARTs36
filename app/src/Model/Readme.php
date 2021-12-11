@@ -6,9 +6,7 @@ use Illuminate\Support\Collection;
 
 class Readme
 {
-    protected array $projects = [];
-
-    public function __construct(protected string $content)
+    public function __construct(protected array $projects = [])
     {
         //
     }
