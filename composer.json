@@ -1,0 +1,27 @@
+{
+    "name": "artarts36/artarts36",
+    "type": "project",
+    "require": {
+        "artarts36/ci-git-sender": "^0.1.1",
+        "knplabs/packagist-api": "^1.7",
+        "illuminate/console": "^8.71",
+        "illuminate/container": "^8.71",
+        "illuminate/events": "^8.71",
+        "artarts36/local-file-system": "^0.1.0",
+        "illuminate/view": "^8.75"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArtARTs36\\ArtARTs36\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ArtARTs36",
+            "email": "temicska99@mail.ru"
+        }
+    ],
+    "require-dev": {
+        "artarts36/php-cs-fixer-good-fixers": "^0.1.1"
+    }
+}
