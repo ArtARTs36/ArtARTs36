@@ -34,6 +34,10 @@ class UpdateReadmeCommand extends Command
 
         $repository->save($readme);
 
+        if (! $readme->hasChanges()) {
+            return;
+        }
+
         SenderFactory::local()
             ->create(__DIR__ . '/../', new \ArtARTs36\CiGitSender\Remote\Credentials(
                 getenv('README_LOGIN'),
