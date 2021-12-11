@@ -38,11 +38,15 @@ class UpdateReadmeCommand extends Command
             return;
         }
 
-        SenderFactory::local()
-            ->create(__DIR__ . '/../../../', new \ArtARTs36\CiGitSender\Remote\Credentials(
-                getenv('README_LOGIN'),
-                getenv('README_TOKEN'),
-            ))
-            ->send('README.md', new Message('README.MD', '[AUTO] Update README.MD'));
+        try {
+            SenderFactory::local()
+                ->create(__DIR__ . '/../../../', new \ArtARTs36\CiGitSender\Remote\Credentials(
+                    getenv('README_LOGIN'),
+                    getenv('README_TOKEN'),
+                ))
+                ->send('README.md', new Message('README.MD', '[AUTO] Update README.MD'));
+        } catch (\Throwable $e) {
+            var_dump($e->getMessage());
+        }
     }
 }
