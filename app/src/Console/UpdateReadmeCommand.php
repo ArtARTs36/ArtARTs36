@@ -46,7 +46,7 @@ class UpdateReadmeCommand extends Command
                 ))
                 ->send('README.md', new Message('README.MD', '[AUTO] Update README.MD'));
         } catch (\Throwable $e) {
-            var_dump($e->getMessage());
+            var_dump($e->commandResult);
         }
     }
 }
