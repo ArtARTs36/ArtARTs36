@@ -39,7 +39,7 @@ class UpdateReadmeCommand extends Command
         }
 
         SenderFactory::local()
-            ->create(__DIR__ . '/../', new \ArtARTs36\CiGitSender\Remote\Credentials(
+            ->create(__DIR__ . '/../../../', new \ArtARTs36\CiGitSender\Remote\Credentials(
                 getenv('README_LOGIN'),
                 getenv('README_TOKEN'),
             ))
