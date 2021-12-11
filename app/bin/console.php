@@ -23,6 +23,15 @@ $container->afterResolving(EngineResolver::class, static function (EngineResolve
         return new CompilerEngine(new BladeCompiler(new \Illuminate\Filesystem\Filesystem(), __DIR__ . '/../cache/'));
     });
 });
+
+$container->bind(\ArtARTs36\ArtARTs36\Repository\ReadmeRepository::class, static function (Container $container) {
+    return new \ArtARTs36\ArtARTs36\Repository\ReadmeRepository(
+        __DIR__ . '/../../README.md',
+        $container->make(FileSystem::class),
+        $container->make(\ArtARTs36\ArtARTs36\View\ReadmeRenderer::class),
+    );
+});
+
 $container->bind(FileSystem::class, LocalFileSystem::class);
 $container->bind(Factory::class, \Illuminate\View\Factory::class);
 $container->bind(ViewFinderInterface::class, static function () {

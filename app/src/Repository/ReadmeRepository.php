@@ -8,9 +8,7 @@ use ArtARTs36\FileSystem\Contracts\FileSystem;
 
 class ReadmeRepository
 {
-    protected static string $path = __DIR__ . '/../../../README.md';
-
-    public function __construct(protected FileSystem $files, protected ReadmeRenderer $renderer)
+    public function __construct(protected $path, protected FileSystem $files, protected ReadmeRenderer $renderer)
     {
         //
     }
@@ -22,6 +20,6 @@ class ReadmeRepository
 
     public function save(Readme $readme): void
     {
-        $this->files->createFile(self::$path, $this->renderer->render($readme));
+        $this->files->createFile($this->path, $this->renderer->render($readme));
     }
 }
