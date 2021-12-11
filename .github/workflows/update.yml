@@ -32,4 +32,7 @@ jobs:
         run: cd app && composer install --prefer-dist --no-progress --no-suggest && composer dump-autoload -o
 
       - name: Update README
+        env:
+          README_LOGIN: ${{ secrets.README_LOGIN }}
+          README_TOKEN: ${{ secrets.README_TOKEN }}
         run: php app/bin/console.php artarts36:readme:update
