@@ -6,8 +6,10 @@ use Illuminate\Support\Collection;
 
 class Readme
 {
-    public function __construct(protected array $projects = [])
-    {
+    public function __construct(
+        public readonly string $path,
+        protected array $projects = [],
+    ) {
         //
     }
 

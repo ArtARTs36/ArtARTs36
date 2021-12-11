@@ -4,30 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd52a9a193e16f473efe4657022678bd",
+    "content-hash": "71ece8fab41f0a1fe1d0200d58135697",
     "packages": [
         {
             "name": "artarts36/ci-git-sender",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ArtARTs36/php-ci-git-sender.git",
-                "reference": "29c8196b6683f4fe87f49ed1899818559ffbf62b"
+                "reference": "0cb9f02def2f0be14b79115a00057c60fee5ad19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ArtARTs36/php-ci-git-sender/zipball/29c8196b6683f4fe87f49ed1899818559ffbf62b",
-                "reference": "29c8196b6683f4fe87f49ed1899818559ffbf62b",
+                "url": "https://api.github.com/repos/ArtARTs36/php-ci-git-sender/zipball/0cb9f02def2f0be14b79115a00057c60fee5ad19",
+                "reference": "0cb9f02def2f0be14b79115a00057c60fee5ad19",
                 "shasum": ""
             },
             "require": {
                 "artarts36/git-handler": "^1.1",
-                "ondram/ci-detector": "^4.1"
+                "ondram/ci-detector": "^4.1",
+                "php": "^8"
             },
             "require-dev": {
+                "artarts36/php-cs-fixer-good-fixers": "^0.1.0",
                 "jetbrains/phpstorm-attributes": "^1.0",
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "^3.6"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "autoload": {
@@ -45,9 +46,9 @@
             "description": "CI Git Sender",
             "support": {
                 "issues": "https://github.com/ArtARTs36/php-ci-git-sender/issues",
-                "source": "https://github.com/ArtARTs36/php-ci-git-sender/tree/0.1.1"
+                "source": "https://github.com/ArtARTs36/php-ci-git-sender/tree/0.1.2"
             },
-            "time": "2021-11-17T04:32:33+00:00"
+            "time": "2021-11-26T11:05:56+00:00"
         },
         {
             "name": "artarts36/file-system-contracts",

@@ -5,9 +5,11 @@ namespace ArtARTs36\ArtARTs36\Console;
 use ArtARTs36\ArtARTs36\Model\Lang;
 use ArtARTs36\ArtARTs36\Model\Project;
 use ArtARTs36\ArtARTs36\Repository\ReadmeRepository;
+use ArtARTs36\CiGitSender\Factory\SenderFactory;
 use Illuminate\Console\Command;
 use Packagist\Api\Client;
 use Packagist\Api\Result\Result;
+use ArtARTs36\CiGitSender\Commit\Message;
 
 class UpdateReadmeCommand extends Command
 {
@@ -31,5 +33,12 @@ class UpdateReadmeCommand extends Command
         }
 
         $repository->save($readme);
+
+        SenderFactory::local()
+            ->create(__DIR__ . '/../', new \ArtARTs36\CiGitSender\Remote\Credentials(
+                getenv('README_LOGIN'),
+                getenv('README_TOKEN'),
+            ))
+            ->send('README.md', new Message('README.MD', '[AUTO] Update README.MD'));
     }
 }

@@ -2,7 +2,7 @@
     "name": "artarts36/artarts36",
     "type": "project",
     "require": {
-        "artarts36/ci-git-sender": "^0.1.1",
+        "artarts36/ci-git-sender": "^0.1.2",
         "knplabs/packagist-api": "^1.7",
         "illuminate/console": "^8.71",
         "illuminate/container": "^8.71",

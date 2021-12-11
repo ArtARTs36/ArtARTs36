@@ -15,7 +15,7 @@ class ReadmeRepository
 
     public function get(): Readme
     {
-        return new Readme();
+        return new Readme($this->path);
     }
 
     public function save(Readme $readme): void
