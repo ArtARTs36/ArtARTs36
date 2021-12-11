@@ -22,7 +22,7 @@ jobs:
         id: composer-cache
         uses: actions/cache@v2
         with:
-          path: vendor
+          path: app/vendor
           key: ${{ runner.os }}-php-$GITHUB_REF-${{ hashFiles('**/composer.json') }}
           restore-keys: |
             ${{ runner.os }}-php-
