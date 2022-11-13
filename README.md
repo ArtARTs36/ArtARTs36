@@ -45,5 +45,23 @@
             <img src="https://poser.pugx.org/artarts36/local-file-system/d/total.svg">
             </td>
         </tr>
+        <tr>
+            <th colspan="3">
+                <div align="left">API Clients</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/PushAllSender">
+                    PushAll
+                </a>
+            </td>
+            <td>
+                Client for send push-notifications on API https://pushall.ru
+            </td>
+            <td>
+            <img src="https://poser.pugx.org/artarts36/pushall-sender/d/total.svg">
+            </td>
+        </tr>
     </tbody>
 </table>
