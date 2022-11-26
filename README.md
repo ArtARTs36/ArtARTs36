@@ -63,5 +63,18 @@
             <img src="https://poser.pugx.org/artarts36/pushall-sender/d/total.svg">
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/cbr-course-finder">
+                    CbrCourseFinder
+                </a>
+            </td>
+            <td>
+                This package provides feature for searching currency courses for russian rouble
+            </td>
+            <td>
+            <img src="https://poser.pugx.org/artarts36/cbr-course-finder/d/total.svg">
+            </td>
+        </tr>
     </tbody>
 </table>
