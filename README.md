@@ -12,13 +12,44 @@
             <th>Description</th>
             <th>Downloads</th>
         </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="3">
+                <div align="left">Linters</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-merge-request-linter">
+                    Merge Request Linter
+                </a>
+            </td>
+            <td>
+                This package provides tools for validating merge requests
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/merge-request-linter/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-cs-fixer-good-fixers">
+                    Good Fixers
+                </a>
+            </td>
+            <td>
+                Good Fixers for PHP CS Fixer
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/php-cs-fixer-good-fixers/d/total.svg">
+            </td>
+        </tr>
         <tr>
             <th colspan="3">
                 <div align="left">FileSystem Abstraction</div>
             </th>
         </tr>
-    </thead>
-    <tbody>
         <tr>
             <td>
                 <a href="https://github.com/ArtARTs36/php-file-system-contracts">
