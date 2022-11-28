@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Artem</h1>
-<h3 align="center">A backend developer</h3>
+<h3 align="center">A backend PHP/GO developer</h3>
 
 ✉️ My Telegram: @artarts36
 
@@ -74,6 +74,63 @@
             </td>
             <td>
             <img src="https://poser.pugx.org/artarts36/cbr-course-finder/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <div align="left">Laravel</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/laravel-ru-currency">
+                    RuCurrency
+                </a>
+            </td>
+            <td>
+                This package provides currencies with courses For Laravel
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/laravel-ru-currency/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-artisan-documentator">
+                    Artisan Documentator
+                </a>
+            </td>
+            <td>
+                This package provides generate documentation about your app console commands
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/artisan-documentator/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-laravel-env-documentator">
+                    Environment Documentator
+                </a>
+            </td>
+            <td>
+                This package provides generate documentation about your app environment
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/laravel-env-documentator/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/laravel-schedule-documentator">
+                    Laravel Schedule Documentator
+                </a>
+            </td>
+            <td>
+                This package provides automatic generation of documentation for your app schedule
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/laravel-schedule-documentator/d/total.svg">
             </td>
         </tr>
     </tbody>
