@@ -164,5 +164,36 @@
                 <img src="https://poser.pugx.org/artarts36/laravel-schedule-documentator/d/total.svg">
             </td>
         </tr>
+        <tr>
+            <th colspan="3">
+                <div align="left">Shell Command</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/ShellCommand">
+                   ShellCommand
+                </a>
+            </td>
+            <td>
+                Shell command wrapper
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/shell-command/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-shell-command-ssh-executor">
+                   SSH Executor
+                </a>
+            </td>
+            <td>
+                The adapter for ShellCommand executor through SSH
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/shell-command-ssh-executor/d/total.svg">
+            </td>
+        </tr>
     </tbody>
 </table>
