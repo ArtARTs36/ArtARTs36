@@ -195,5 +195,62 @@
                 <img src="https://poser.pugx.org/artarts36/shell-command-ssh-executor/d/total.svg">
             </td>
         </tr>
+        <tr>
+            <th colspan="3">
+                <div align="left">Git wrapper</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/GitHandler">
+                   Git Handler
+                </a>
+            </td>
+            <td>
+                Tool for work with Git in PHP
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/git-handler/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-git-handler-remote">
+                   SSH Executor (based on Git Handler)
+                </a>
+            </td>
+            <td>
+                Work with git repository on remote server
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/git-handler-remote/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-ci-git-tagger">
+                   CI Git Tagger
+                </a>
+            </td>
+            <td>
+                Tool for sending tags to remote git in CI
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/ci-git-tagger/d/total.svg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/php-ci-git-sender">
+                   CI Git Sender
+                </a>
+            </td>
+            <td>
+                This is an auxiliary PHP package for sending commits during the CI pipelines
+            </td>
+            <td>
+                <img src="https://poser.pugx.org/artarts36/ci-git-sender/d/total.svg">
+            </td>
+        </tr>
     </tbody>
 </table>
