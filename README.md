@@ -8,6 +8,10 @@
 * [b0o.ru](https://b0o.ru) - service for link cutting
 * [console-gif](http://console-gif.ukrainsky.su) - console input animator
 
+### Organizations
+
+* [mr-linter](https://github.com/mr-linter)
+
 ### My PHP Packages:
 
 <table>
