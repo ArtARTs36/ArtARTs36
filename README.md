@@ -12,7 +12,34 @@
 
 * [mr-linter](https://github.com/mr-linter)
 
-### My PHP Packages:
+### My GO projects/packages
+<table>
+    <thead>
+        <tr>
+            <th>Package</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="3">
+                <div align="left">Linters</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/regexlint">
+                    regexlint
+                </a>
+            </td>
+            <td>
+                Simple console application for regex validation, e.g. in CI pipelines for checking trust domains from configuration files
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### My PHP packages
 
 <table>
     <thead>
