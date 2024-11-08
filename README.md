@@ -85,7 +85,7 @@
         <tr>
             <td>
                 <a href="https://github.com/ArtARTs36/singlecli">
-                    singlecci
+                    singlecli
                 </a>
             </td>
             <td>
