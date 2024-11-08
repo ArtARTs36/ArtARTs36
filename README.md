@@ -23,6 +23,46 @@
     <tbody>
         <tr>
             <th colspan="3">
+                <div align="left">Platform</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/sentry-notifier">
+                    sentry-notifier
+                </a>
+            </td>
+            <td>
+                Sentry-notifier - application for sending notifications on Sentry webhooks
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <div align="left">Codegen</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/db-exporter">
+                    db-exporter
+                </a>
+            </td>
+            <td>
+                Console application for export db schema and data to formats
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/gostub">
+                    gostub
+                </a>
+            </td>
+            <td>
+                Stub generator for GO interfaces
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">
                 <div align="left">Linters</div>
             </th>
         </tr>
@@ -34,6 +74,21 @@
             </td>
             <td>
                 Simple console application for regex validation, e.g. in CI pipelines for checking trust domains from configuration files
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <div align="left">Frameworks</div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/singlecli">
+                    singlecci
+                </a>
+            </td>
+            <td>
+               Package for creating single command console application
             </td>
         </tr>
     </tbody>
