@@ -34,7 +34,17 @@
                 </a>
             </td>
             <td>
-                Sentry-notifier - application for sending notifications on Sentry webhooks
+                Application for sending notifications on Sentry webhooks
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/nats-bus">
+                    nats-bus
+                </a>
+            </td>
+            <td>
+                Wrapper package for NATS focussed on NATS JetStream
             </td>
         </tr>
         <tr>
