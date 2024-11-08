@@ -63,6 +63,16 @@
             </td>
         </tr>
         <tr>
+            <td>
+                <a href="https://github.com/ArtARTs36/protoc-gen-go-srv-handler">
+                    protoc-gen-go-srv-handler
+                </a>
+            </td>
+            <td>
+                Protoc plugin for generate go server handlers
+            </td>
+        </tr>
+        <tr>
             <th colspan="3">
                 <div align="left">Linters</div>
             </th>
