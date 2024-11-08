@@ -7,6 +7,7 @@
 
 * [b0o.ru](https://b0o.ru) - service for link cutting
 * [console-gif](http://console-gif.ukrainsky.su) - console input animator
+* [mr-linter](https://mr-linter.dev) - linter for merge requests
 
 ### Organizations
 
